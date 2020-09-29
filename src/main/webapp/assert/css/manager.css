@@ -1,0 +1,65 @@
+.pageTop,.pageDown{
+	height: 100px;
+	border: 1px #ccc solid;
+}
+.pageBody{
+	height: 500px;
+	
+}
+.bodyLeft,.bodyRight{
+	border: 1px #ccc solid;
+	height: 500px;
+}
+.pageBody{
+	margin: 0px;
+}
+.bodyLeft *{
+	padding: 0;
+	margin: 0;
+}
+.bodyLeft{
+	padding: 0;
+}
+.bodyLeft ul{
+	list-style: none;
+}
+.bodyLeft a{
+	color: black;
+}
+.bodyLeft a:hover{
+	text-decoration: none;
+}
+.bodyLeft>ul>li{
+	line-height: 50px;
+	position: relative;
+	font-size: 20px;
+	border: 1px #ccc solid;
+	cursor: pointer;
+}
+.bodyLeft li li{
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	font-size: 20px;
+	border: 1px #ccc solid;
+	padding-left:20px ;
+	cursor: pointer;
+	
+}
+
+.bodyLeft li span{
+	position: absolute;
+	right:10px;
+	top: 15px;
+}
+.main{
+	height: 498px;
+}
+
+
+
+
+
+
+
+
